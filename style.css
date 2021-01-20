@@ -5,6 +5,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -175,6 +179,7 @@ a.hero-button:hover {
 }
 
 .portfolio-wrapper a img {
+  border: 1px solid black;
   border-radius: 1em;
   margin-bottom: 2em;
 }
@@ -198,9 +203,6 @@ a.hero-button:hover {
 /* About Me Section */
 .about-me {
   background: black;
-  color: #fff;
-  max-width: 1000px;
-  /* margin: 0 auto; */
   padding: 4em 2em;
   text-align: center;
 }
@@ -209,17 +211,54 @@ a.hero-button:hover {
   border-radius: 1em;
 }
 
+.about-me p {
+  margin-bottom: 2em;
+}
+
 .about-me h2 {
   text-transform: uppercase;
   font-weight: bold;
   color: #2ebbbb;
   letter-spacing: 0.2em;
-  font-size: 0.85em;
+  font-size: 1.25em;
 }
 
 .about-me p {
   color: #b9dfdf;
-  font-size: 0.9em;
+  font-size: 1em;
   line-height: 1.8em;
   font-weight: 500;
+}
+
+/* Footer Section */
+.footer {
+  background: #111;
+  text-align: center;
+  padding: 2.5em 0;
+}
+
+.footer-link {
+  font-weight: bold;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #2ebbbb;
+  font-size: 1.2rem;
+}
+
+.footer a:hover {
+  opacity: 0.75;
+}
+
+@media all and (min-width: 700px) {
+  .about-me h2 {
+    margin-bottom: 50px;
+  }
+
+  .about-me {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 40% auto;
+  }
 }

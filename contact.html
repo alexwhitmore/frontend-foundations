@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="contact.css" />
+    <title>Alex Whitmore Portfolio</title>
+  </head>
+  <body>
+    <!-- Header/Nav Section -->
+    <div class="nav-container">
+      <header>
+        <a href="index.html" class="logo">Alex Whitmore</a>
+        <nav>
+          <ul class="menu">
+            <li><a href="index.html#work">Portfolio</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="#contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Social Links -->
+      <div class="social-header">
+        <ul>
+          <li>
+            <a href="https://github.com/alexwhitmore" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/alex-whitmore-167896153/"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/theAlexWhitmore" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section>
+      <h2>Let's get in touch!</h2>
+      <div class="form-container">
+        <form action="https://formspree.io/heyimalexw@gmail.com" method="post">
+          <label for="user-name">Name:</label>
+          <input
+            type="text"
+            id="user-name"
+            name="name"
+            placeholder="Your name.."
+          />
+
+          <label for="user-email">Email:</label>
+          <input
+            type="text"
+            id="user-email"
+            name="email"
+            placeholder="Enter your email.."
+          />
+
+          <label for="subject">Subject:</label>
+          <textarea
+            name="subject"
+            id="subject"
+            placeholder="Write something.."
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

@@ -29,9 +29,9 @@
         <a href="index.html" class="logo">Alex Whitmore</a>
         <nav>
           <ul class="menu">
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#work">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </nav>
       </header>
@@ -40,13 +40,21 @@
       <div class="social-header">
         <ul>
           <li>
-            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/alexwhitmore" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
           </li>
           <li>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a
+              href="https://www.linkedin.com/in/alex-whitmore-167896153/"
+              target="_blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
           </li>
           <li>
-            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="https://twitter.com/theAlexWhitmore" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
           </li>
         </ul>
       </div>
@@ -58,7 +66,7 @@
         <div class="content">
           <h1>Fullstack Developer</h1>
           <p>Crafting efficient, functional and beautiful user experiences.</p>
-          <a href="#" class="hero-button">Let's Talk</a>
+          <a href="contact.html" class="hero-button">Let's Talk</a>
         </div>
         <img
           src="images/hero-design.svg"
@@ -75,18 +83,30 @@
         <div class="portfolio-left">
           <!-- Project One -->
           <div class="inner">
-            <p class="subtitle">Project One</p>
-            <p class="featured-title">Featured Project</p>
+            <p class="subtitle">Local Library</p>
+            <p class="featured-title">
+              github.com/alexwhitmore/project-local-library
+            </p>
             <p class="featured-desc">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
+              Given a large set of data, I needed to organize the information
+              creating various algorithms. This included providing a total count
+              of both available and unavailable books, popular authors, popular
+              books, and most common genres.
+            </p>
+            <p class="featured-desc">
+              <strong>Technoloy Used: </strong>JavaScript
             </p>
           </div>
         </div>
-        <a href="#">
-          <img src="images/placeholder.png" alt="Project One" />
+        <a
+          href="https://github.com/alexwhitmore/project-local-library"
+          target="_blank"
+        >
+          <img
+            src="images/local-library.png
+          "
+            alt="Project One"
+          />
         </a>
       </div>
 
@@ -130,15 +150,16 @@
     </section>
 
     <!-- About Me Section -->
-    <section>
+    <section id="about">
       <div class="about-me">
         <div class="about-me-item">
           <h2>About Me</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            I love builidng things from websites, applications, or a rock
+            climbing gym in my living room. I strive to raise the bar, think
+            outside of the box, and provide a great-looking and performant
+            experience. When I'm not coding, you can find me rock climbing
+            somewhere, drinking coffee, or playing with someone's dog.
           </p>
         </div>
         <div class="about-me-item about-me-item-double">
@@ -146,6 +167,10 @@
         </div>
       </div>
     </section>
-    <footer></footer>
+    <footer class="footer">
+      <a href="mailto:heyimalexw@gmail.com" class="footer-link"
+        >heyimalexw@gmail.com</a
+      >
+    </footer>
   </body>
 </html>
