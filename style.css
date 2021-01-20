@@ -1,0 +1,189 @@
+/* General Styles */
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/* Header/Nav section (Mobile) */
+.nav-container {
+  background: #9adbdb;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header ul {
+  display: flex;
+}
+
+.nav-container a {
+  color: #111;
+}
+
+header nav ul li a:hover {
+  opacity: 0.6;
+}
+
+header .logo {
+  color: #111;
+  font-weight: bold;
+}
+
+header nav ul a {
+  display: block;
+  padding: 0 1em;
+}
+
+.hero {
+  background: #b9dfdf;
+  display: grid;
+  color: #111;
+  text-align: center;
+  padding: 4em;
+}
+
+.hero-design {
+  display: none;
+}
+
+/* Hero Section Button */
+a.hero-button {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  background-color: #4eb5f1;
+  letter-spacing: 0.1em;
+}
+a.hero-button:hover {
+  background-color: #4095c6;
+}
+
+/* Header/Nav section (Desktop) */
+@media only screen and (min-width: 800px) {
+  .hero {
+    height: 90vh;
+  }
+
+  .nav-container {
+    display: grid;
+    grid-template-columns: 75% auto;
+    background: unset;
+  }
+
+  .nav-container header {
+    background: #9adbdb;
+  }
+
+  header {
+    padding: 2em 2em 2em 4em;
+  }
+
+  .hero {
+    display: grid;
+    grid-template-columns: 75% auto;
+    background: unset;
+    padding: 0;
+  }
+
+  .hero .content {
+    background: #b9dfdf;
+    padding: 6em 8em 6em 4em;
+    text-align: left;
+  }
+
+  .hero .content h1 {
+    font-size: 3em;
+    line-height: 1.2em;
+  }
+
+  .hero-design {
+    display: unset;
+    margin-left: -46.75%;
+    margin-top: 20%;
+    width: 135%;
+  }
+}
+
+/* Portfolio Section */
+.portfolio {
+  padding: 4em 2em;
+  text-align: center;
+}
+
+.featured-desc {
+  margin-bottom: 2em;
+}
+
+.portfolio-wrapper a img {
+  border-radius: 1em;
+  margin-bottom: 2em;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #2ebbbb;
+  letter-spacing: 0.2em;
+  font-size: 0.85em;
+}
+
+.featured-desc {
+  color: #3b3b3b;
+  margin-bottom: 3em;
+  font-size: 0.9em;
+  line-height: 1.8em;
+  font-weight: 500;
+}
+
+/* About Me Section */
+.about-me {
+  background: black;
+  color: #fff;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 4em 2em;
+  text-align: center;
+}
+
+.about-me img {
+  border-radius: 1em;
+}
+
+.about-me h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #2ebbbb;
+  letter-spacing: 0.2em;
+  font-size: 0.85em;
+}
+
+.about-me p {
+  color: #b9dfdf;
+  font-size: 0.9em;
+  line-height: 1.8em;
+  font-weight: 500;
+}
