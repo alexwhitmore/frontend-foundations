@@ -84,6 +84,19 @@ a.hero-button:hover {
 
 /* Header/Nav section (Desktop) */
 @media only screen and (min-width: 800px) {
+  .portfolio h2 {
+    margin-bottom: 50px;
+  }
+
+  .portfolio-wrapper {
+    text-align: left;
+  }
+
+  .portfolio-wrapper {
+    display: grid;
+    grid-template-columns: 40% auto;
+  }
+
   .hero {
     height: 90vh;
   }
@@ -130,6 +143,7 @@ a.hero-button:hover {
 
 /* Portfolio Section */
 .portfolio {
+  background: #f7f7f7;
   padding: 4em 2em;
   text-align: center;
 }
@@ -164,7 +178,7 @@ a.hero-button:hover {
   background: black;
   color: #fff;
   max-width: 1000px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 4em 2em;
   text-align: center;
 }
