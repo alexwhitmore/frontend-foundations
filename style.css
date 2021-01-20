@@ -65,7 +65,13 @@ header nav ul a {
   display: none;
 }
 
-/* Hero Section Button */
+/* Social Media Links */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 a.hero-button {
   display: inline-block;
   padding: 0.3em 1.2em;
@@ -80,6 +86,10 @@ a.hero-button {
 }
 a.hero-button:hover {
   background-color: #4095c6;
+}
+
+.social-header {
+  display: none;
 }
 
 /* Header/Nav section (Desktop) */
@@ -135,9 +145,21 @@ a.hero-button:hover {
 
   .hero-design {
     display: unset;
-    margin-left: -46.75%;
-    margin-top: 20%;
+    margin-left: -34.5%;
+    margin-top: 40%;
     width: 135%;
+  }
+
+  .social-header {
+    display: block;
+    padding: 2em 4em 2em 0;
+  }
+
+  .social-header ul {
+    display: flex;
+    justify-content: space-between;
+    width: 7em;
+    float: right;
   }
 }
 
