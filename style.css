@@ -266,3 +266,53 @@ a.hero-button:hover {
     grid-template-columns: 40% auto;
   }
 }
+
+body {
+  background: #b9dfdf;
+}
+input[type='text'],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Add a background color and some padding around the form */
+.form-container {
+  border-radius: 1em;
+  box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  margin: 40px;
+  text-align: left;
+  background: #9adbdb;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Contact Form Button */
+input[type='submit'] {
+  display: inline-block;
+  padding: 0.3em 1.2em;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 2em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  background-color: #4eb5f1;
+  letter-spacing: 0.1em;
+  border: none;
+}
+
+input[type='submit']:hover {
+  background-color: #4095c6;
+}
