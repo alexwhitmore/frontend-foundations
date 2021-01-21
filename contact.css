@@ -80,13 +80,13 @@ ul {
 
   .social-header {
     display: block;
-    padding: 2em 4em 2em 0;
+    padding: 2em 4em 2em 2em;
   }
 
   .social-header ul {
     display: flex;
     justify-content: space-between;
-    width: 7em;
+    width: 12em;
     float: right;
   }
 }
@@ -151,4 +151,40 @@ input[type='submit'] {
 
 input[type='submit']:hover {
   background-color: #4095c6;
+}
+
+/* Footer Section */
+.footer {
+  position: fixed;
+  background: #111;
+  text-align: center;
+  padding: 2.5em 0;
+  bottom: 0px;
+  width: 100%;
+}
+
+.footer-link {
+  font-weight: bold;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #2ebbbb;
+  font-size: 1.2rem;
+}
+
+.footer a:hover {
+  opacity: 0.75;
+}
+
+.social-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 2em 0 0;
+  padding: 0;
+}
+
+.social-list__item {
+  margin: 0 0.5em;
 }

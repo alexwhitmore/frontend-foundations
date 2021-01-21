@@ -102,6 +102,10 @@ a.hero-button:hover {
     margin-bottom: 50px;
   }
 
+  .portfolio-left {
+    padding-right: 1em;
+  }
+
   .portfolio-wrapper {
     text-align: left;
   }
@@ -156,20 +160,20 @@ a.hero-button:hover {
 
   .social-header {
     display: block;
-    padding: 2em 4em 2em 0;
+    padding: 2em 4em 2em 2em;
   }
 
   .social-header ul {
     display: flex;
     justify-content: space-between;
-    width: 7em;
+    width: 12em;
     float: right;
   }
 }
 
 /* Portfolio Section */
 .portfolio {
-  background: #f7f7f7;
+  background: #b9dfdf;
   padding: 4em 2em;
   text-align: center;
 }
@@ -187,7 +191,7 @@ a.hero-button:hover {
 .subtitle {
   text-transform: uppercase;
   font-weight: bold;
-  color: #2ebbbb;
+  color: black;
   letter-spacing: 0.2em;
   font-size: 0.85em;
 }
