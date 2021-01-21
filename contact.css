@@ -3,10 +3,12 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  position: relative;
 }
 
 html {
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 /* Header/Nav section (Mobile) */
@@ -92,8 +94,13 @@ ul {
 }
 
 @media all and (min-width: 700px) {
+  html {
+    height: 100%;
+  }
   body {
     text-align: center;
+    position: relative;
+    height: 100%;
   }
   .form-container {
     display: inline-block;
@@ -155,26 +162,26 @@ input[type='submit']:hover {
 
 /* Footer Section */
 .footer {
-  position: fixed;
+  position: absolute;
   background: #111;
   text-align: center;
   padding: 2.5em 0;
-  bottom: 0px;
+  bottom: 0;
   width: 100%;
 }
 
-.footer-link {
-  font-weight: bold;
-}
-
 .footer a {
-  text-decoration: none;
   color: #2ebbbb;
+  text-decoration: none;
   font-size: 1.2rem;
 }
 
 .footer a:hover {
   opacity: 0.75;
+}
+
+.footer-link {
+  font-weight: bold;
 }
 
 .social-list {
